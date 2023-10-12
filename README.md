@@ -1,5 +1,5 @@
-# HEIC-to-PNG-Converter
-A simple yet effective Python utility that converts iPhone's HEIC image format to the widely supported PNG format.
+# HEIC-Image-Converter (PNG, JPEG)
+A simple yet effective Python utility that converts iPhone's HEIC image format to the widely supported PNG and JPEG format.
 
 ## Features
 Batch conversion support: Convert multiple HEIC images at once.
@@ -12,11 +12,11 @@ Python 3.x
 ## Installation
 Clone the repository:
 ```
-git clone https://github.com/nbenjwal/HEIC-to-PNG-Converter.git
+git clone https://github.com/nbenjwal/HEIC-Image-Converter.git
 ```
 Navigate to the project directory:
 ```
-cd HEIC-to-PNG-Converter
+cd HEIC-Image-Converter
 ```
 Install required dependencies:
 ```
@@ -27,13 +27,14 @@ Install required dependencies:
 ## Usage
 Before running the script, please configure the following paths in the Python code:
 ```
-    heic_path = 'F://DCIM'  # Specify the directory containing HEIC images
-    png_path = 'F://png//'  # Designate the destination directory for converted PNG images
+    heic_images_directory = 'F://DCIM'              # Directory holding the HEIC images
+    converted_images_directory = 'F://converted//'  # Destination directory for the converted images
+    target_format = 'PNG'                           # Desired output format (options: PNG, JPEG)
 ```
 
 Run the converter script:
 ```
-    python heic-to-png.py
+    python heic-image-converter.py
 ```
 
 ## Contributing
