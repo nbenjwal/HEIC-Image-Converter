@@ -20,21 +20,21 @@ cd HEIC-Image-Converter
 ```
 Install required dependencies:
 ```
- pip install pillow_heif
+pip install pillow_heif
 ```
 
 
 ## Usage
 Before running the script, please configure the following paths in the Python code:
 ```
-    heic_images_directory = 'F://DCIM'              # Directory holding the HEIC images
-    converted_images_directory = 'F://converted//'  # Destination directory for the converted images
-    target_format = 'PNG'                           # Desired output format (options: PNG, JPEG)
+heic_images_directory = 'F://DCIM'              # Directory holding the HEIC images
+converted_images_directory = 'F://converted//'  # Destination directory for the converted images
+target_format = 'PNG'                           # Desired output format (options: PNG, JPEG)
 ```
 
 Run the converter script:
 ```
-    python heic-image-converter.py
+python heic-image-converter.py
 ```
 
 ## Contributing
